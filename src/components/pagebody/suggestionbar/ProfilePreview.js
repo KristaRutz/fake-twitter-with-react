@@ -1,7 +1,7 @@
 import React from "react";
 
-function TweetButton() {
+function ProfilePreview() {
   return <React.Fragment></React.Fragment>;
 }
 
-export default TweetButton;
+export default ProfilePreview;

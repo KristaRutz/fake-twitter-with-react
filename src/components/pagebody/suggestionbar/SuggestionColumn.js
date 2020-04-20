@@ -1,7 +1,7 @@
 import React from "react";
 
-function TweetButton() {
+function SuggestionColumn() {
   return <React.Fragment></React.Fragment>;
 }
 
-export default TweetButton;
+export default SuggestionColumn;

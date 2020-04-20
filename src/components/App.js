@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "./navbar/NavBar.js";
+import Page from "./pagebody/Page.js";
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
        > search bar
        > Tweet Button // submit button so individual component
        */}
-
+      <br />
+      <br />
+      <Page />
       {/* body 
         > profile bar - columns 1
         > > profile box

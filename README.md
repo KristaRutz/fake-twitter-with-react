@@ -1,4 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Diagragmming
+
+      {/* nav bar
+       > nav links // Three links same component
+       > search bar
+       > Tweet Button // submit button so individual component
+       */}
+      {/* body
+        > profile bar - columns 1
+        > > profile box
+        > > description box
+        > timeline feed - columns 2
+        > > new tweet post bar
+        > > tweets
+        > suggestions box - columns 3
+        > > profile preview
+      */}
 
 ## Available Scripts
 
@@ -64,5 +80,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
 ### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

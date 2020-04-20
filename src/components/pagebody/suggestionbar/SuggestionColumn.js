@@ -21,13 +21,13 @@ function SuggestionColumn() {
     <React.Fragment>
       <div>
         <h5>Suggested for you</h5>
-        <ProfilePreview
-          // username={profilePreview.username}
-          // recentTweet={profilePreview.recentTweet}
-          username="test"
-          recentTweet="foo bar"
-        />
-        {/* map() to loop through suggestedProfiles */}
+        {suggestedProfiles.map((profile, index) => (
+          <ProfilePreview
+            username={profile.username}
+            recentTweet={profile.recentTweet}
+            key={index}
+          />
+        ))}
       </div>
     </React.Fragment>
   );

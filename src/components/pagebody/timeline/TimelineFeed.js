@@ -40,6 +40,7 @@ function TimelineFeed() {
           username={tweet.username}
           timestamp={tweet.timestamp}
           content={tweet.content}
+          key={index}
         />
       ))}
     </React.Fragment>

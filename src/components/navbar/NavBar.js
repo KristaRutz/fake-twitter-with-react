@@ -3,11 +3,25 @@ import React from "react";
 function NavBar() {
   return (
     <React.Fragment>
-      <button class="btn btn-lg">Home</button>
-      <button class="btn btn-lg">Notifications</button>
-      <button class="btn btn-lg">Messages</button>
-      <span>"search bar here"</span>
-      <button class="btn btn-lg">Compose Tweet</button>
+      <nav class="navbar navbar-light bg-light">
+        <div class="btn-group">
+          <button class="btn btn-outline-primary">Home</button>
+          <button class="btn btn-outline-primary">Notifications</button>
+          <button class="btn btn-outline-primary">Messages</button>
+        </div>
+        <form class="form-inline">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+        <button class="btn btn-primary">Compose Tweet</button>
+      </nav>
     </React.Fragment>
   );
 }
